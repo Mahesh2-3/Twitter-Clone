@@ -566,20 +566,8 @@ video {
   bottom: 0px;
 }
 
-.bottom-\[8\%\] {
-  bottom: 8%;
-}
-
-.left-\[\] {
-  left: ;
-}
-
-.left-\[89\%\] {
-  left: 89%;
-}
-
-.left-\[80\%\] {
-  left: 80%;
+.top-0 {
+  top: 0px;
 }
 
 .m-0 {
@@ -625,17 +613,8 @@ video {
   margin-bottom: 2rem;
 }
 
-.my-7 {
-  margin-top: 1.75rem;
-  margin-bottom: 1.75rem;
-}
-
 .mb-7 {
   margin-bottom: 1.75rem;
-}
-
-.ml-\[70px\] {
-  margin-left: 70px;
 }
 
 .block {
@@ -688,10 +667,6 @@ video {
 
 .h-\[60px\] {
   height: 60px;
-}
-
-.h-\[80px\] {
-  height: 80px;
 }
 
 .h-\[96vh\] {
@@ -774,10 +749,6 @@ video {
   grid-template-rows: repeat(2, minmax(0, 1fr));
 }
 
-.flex-row {
-  flex-direction: row;
-}
-
 .flex-col {
   flex-direction: column;
 }
@@ -786,16 +757,8 @@ video {
   flex-wrap: wrap;
 }
 
-.items-start {
-  align-items: flex-start;
-}
-
 .items-center {
   align-items: center;
-}
-
-.justify-start {
-  justify-content: flex-start;
 }
 
 .justify-end {
@@ -954,6 +917,11 @@ video {
   background-color: rgb(29 29 29 / var(--tw-bg-opacity, 1));
 }
 
+.bg-\[green\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 128 0 / var(--tw-bg-opacity, 1));
+}
+
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1));
@@ -987,6 +955,10 @@ video {
 
 .p-3 {
   padding: 0.75rem;
+}
+
+.p-4 {
+  padding: 1rem;
 }
 
 .p-5 {
@@ -1033,6 +1005,11 @@ video {
   padding-bottom: 0.75rem;
 }
 
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
 .py-\[5px\] {
   padding-top: 5px;
   padding-bottom: 5px;
@@ -1043,13 +1020,7 @@ video {
   padding-bottom: 6px;
 }
 
-.py-7 {
-  padding-top: 1.75rem;
-  padding-bottom: 1.75rem;
-}
-
-.py-5 {
-  padding-top: 1.25rem;
+.pb-5 {
   padding-bottom: 1.25rem;
 }
 
@@ -1065,8 +1036,8 @@ video {
   padding-top: 0.5rem;
 }
 
-.pb-5 {
-  padding-bottom: 1.25rem;
+.text-center {
+  text-align: center;
 }
 
 .font-\[sans-serif\] {
@@ -1115,6 +1086,11 @@ video {
 
 .text-\[x-large\] {
   font-size: x-large;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
 .text-sm {
@@ -1254,22 +1230,6 @@ video {
 
   .sm\:h-\[60px\] {
     height: 60px;
-  }
-
-  .sm\:flex-row {
-    flex-direction: row;
-  }
-
-  .sm\:items-center {
-    align-items: center;
-  }
-
-  .sm\:justify-between {
-    justify-content: space-between;
-  }
-
-  .sm\:pl-0 {
-    padding-left: 0px;
   }
 
   .sm\:underline-offset-\[22px\] {
