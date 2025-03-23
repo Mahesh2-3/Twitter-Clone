@@ -5,7 +5,7 @@
         "use": "@vercel/static"
       }
     ],
-    "ignoreCommand": "git log -1 --format=%cd",
+
     "outputDirectory": "src"
   }
   
